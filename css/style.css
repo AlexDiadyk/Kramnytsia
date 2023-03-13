@@ -1515,15 +1515,12 @@ body.ie ._ibg img {
 }
 
 .menu__link {
-  font-family: "Play";
   min-height: 27px;
-  text-decoration: underline;
-  color: #2e2f42;
+  color: var(--text-color);
   font-size: 16px;
-  -webkit-transition: all 0.3s ease 0s;
+  font-weight: 500;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-pack: center;
@@ -1571,7 +1568,7 @@ body.ie ._ibg img {
 .contacts-header__phone {
   color: #2e2f42;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   white-space: nowrap;
 }
 .bottom-header_container {
