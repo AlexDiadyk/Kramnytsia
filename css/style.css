@@ -1469,20 +1469,15 @@ body.ie ._ibg img {
 }
 
 .top-header__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   height: 90px;
   background-color: var(--background-color);
 }
 
 .top-header__column {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 50%;
-          flex: 0 1 50%;
+width: 445px;
+text-align: center;
 }
 
 .top-header__column_logo {
@@ -1538,24 +1533,24 @@ body.ie ._ibg img {
 }
 
 .contacts-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          text-align: left;
 }
 
 .contacts-header__column {
-  padding: 0px 30px;
+  padding: 0px;
 }
 
 .contacts-header__item_phone {
-  padding: 0px 0px 0px 37px;
+  padding: 0px 0px 0px 10px;
 }
 
 .contacts-header__item-mail {
-  padding: 0px 0px 0px 37px;
+  padding: 0px 0px 0px 10px;
 }
 
 .contacts-header__label {
@@ -1710,6 +1705,15 @@ body.ie ._ibg img {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
+}
+
+.header-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    fill:var(--text-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------------------------- MAIN  ------------------------------*/
